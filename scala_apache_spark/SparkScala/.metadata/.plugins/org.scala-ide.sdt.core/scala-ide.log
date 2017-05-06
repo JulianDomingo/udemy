@@ -648,3 +648,276 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 2017-05-06 05:13:20,742  WARN [Worker-63] - ScalaProject - Project LearningScala runs on platform default installation.
 2017-05-06 05:13:21,800  WARN [Worker-72] - ScalaProject - Project LearningScala has platform default sourceLevel.
 2017-05-06 05:13:21,800  WARN [Worker-72] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 21:12:56,652 ERROR [Worker-0] - Statistics - Statistics file `/home/julian/.scalaide/statistics` is corrupted. A new one is being created. Corrupted content was:
+
+com.cedarsoftware.util.io.JsonIoException: error parsing JSON value
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:529)
+	at com.cedarsoftware.util.io.JsonReader.jsonToJava(JsonReader.java:289)
+	at com.cedarsoftware.util.io.JsonReader.jsonToJava(JsonReader.java:262)
+	at org.scalaide.core.internal.statistics.Statistics.org$scalaide$core$internal$statistics$Statistics$$read(Statistics.scala:74)
+	at org.scalaide.core.internal.statistics.Statistics$$anonfun$readStats$1.apply(Statistics.scala:52)
+	at org.scalaide.core.internal.statistics.Statistics$$anonfun$readStats$1.apply(Statistics.scala:51)
+	at org.scalaide.core.ScalaIdeDataStore$$anonfun$validate$2.apply(ScalaIdeDataStore.scala:59)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.core.ScalaIdeDataStore$.validate(ScalaIdeDataStore.scala:58)
+	at org.scalaide.core.internal.statistics.Statistics.readStats(Statistics.scala:51)
+	at org.scalaide.core.internal.statistics.Statistics.<init>(Statistics.scala:30)
+	at org.scalaide.core.internal.ScalaPlugin.stats$lzycompute(ScalaPlugin.scala:135)
+	at org.scalaide.core.internal.ScalaPlugin.stats(ScalaPlugin.scala:135)
+	at org.scalaide.core.internal.ScalaPlugin.statistics(ScalaPlugin.scala:138)
+	at org.scalaide.core.internal.ScalaPlugin.start(ScalaPlugin.scala:109)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.events.BuildManager.instantiateBuilder(BuildManager.java:902)
+	at org.eclipse.core.internal.events.BuildManager.initializeBuilder(BuildManager.java:855)
+	at org.eclipse.core.internal.events.BuildManager.getBuilder(BuildManager.java:547)
+	at org.eclipse.core.internal.events.BuildManager.getBuilder(BuildManager.java:576)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:244)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
+	at com.cedarsoftware.util.io.JsonParser.error(JsonParser.java:584)
+	at com.cedarsoftware.util.io.JsonParser.readValue(JsonParser.java:278)
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:521)
+	... 53 more
+2017-05-06 21:12:56,683  WARN [Worker-0] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 21:12:56,684  WARN [Worker-0] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 21:12:56,997  WARN [Worker-0] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 21:12:56,997  WARN [Worker-0] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 21:12:57,033  WARN [Worker-0] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 21:12:57,033  WARN [Worker-0] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 21:12:57,607  WARN [Worker-0] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:12:57,607  WARN [Worker-0] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:12:59,035  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 21:12:59,044  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 21:12:59,194  WARN [Worker-2] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:12:59,194  WARN [Worker-2] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:12:59,202  WARN [Worker-2] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:12:59,202  WARN [Worker-2] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:14:53,232  WARN [Worker-1] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:14:53,232  WARN [Worker-1] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:14:53,565  WARN [Java indexing] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:14:53,565  WARN [Java indexing] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:15:00,799 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:00,799 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:00,802 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:22,889 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:23,272 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:23,273 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:23,273 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:15:24,411  WARN [Worker-1] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:15:24,411  WARN [Worker-1] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:15:45,655  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:15:45,655  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:17:12,862  WARN [Worker-4] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:17:12,862  WARN [Worker-4] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:21:54,009 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:21:54,009 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:21:54,009 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:21:55,410  WARN [Worker-1] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:21:55,410  WARN [Worker-1] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:21:58,935  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:21:58,935  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:22:03,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:03,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:03,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:04,684  WARN [Worker-7] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:22:04,684  WARN [Worker-7] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:22:06,280 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:06,280 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:06,280 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:51,689 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:51,689 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:51,689 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:56,129 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:56,129 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:22:56,750  WARN [Worker-7] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:22:56,751  WARN [Worker-7] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:23:00,974  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:23:00,974  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:23:13,936  WARN [main] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:23:13,936  WARN [main] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:23:14,229  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:23:14,230  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:23:40,334  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:23:40,335  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:23:45,991  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:23:45,992  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:23:51,253  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:23:51,253  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:24:09,568  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:24:09,568  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:24:18,217  WARN [main] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:24:18,218  WARN [main] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:24:18,436  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:24:18,436  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:24:37,611  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:24:37,611  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:24:58,328  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:24:58,328  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:25:21,083  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:25:21,084  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:25:50,524  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:25:50,524  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:26:11,019  WARN [Worker-10] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:26:11,019  WARN [Worker-10] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:26:15,557  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:26:15,557  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:26:29,391  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:26:29,391  WARN [Worker-9] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:26:40,271  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:26:40,271  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:26:59,187  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:26:59,188  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:27:36,773  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:27:36,773  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:27:43,974  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:27:43,975  WARN [Worker-5] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:27:46,206  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:27:46,206  WARN [Worker-8] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:37:41,183  WARN [Worker-13] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:37:41,184  WARN [Worker-13] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:38:36,988  WARN [Worker-12] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:38:36,988  WARN [Worker-12] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:39:05,693  WARN [Worker-13] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:39:05,693  WARN [Worker-13] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:39:14,164  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:39:14,164  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:39:26,544  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:39:26,544  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:39:29,279  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:39:29,279  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:39:30,685 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:39:30,685 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:39:30,685 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 21:39:31,871  WARN [Worker-11] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:39:31,871  WARN [Worker-11] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:41:30,795  WARN [Worker-11] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:41:30,795  WARN [Worker-11] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:41:32,106  WARN [Worker-13] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:41:32,106  WARN [Worker-13] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 21:41:34,810  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 21:41:34,811  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:04:35,950  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:04:35,950  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:05:01,954  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:05:01,954  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:05:13,623  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:05:13,623  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:05:23,241  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:05:23,241  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:05:25,822  WARN [Worker-15] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:05:25,822  WARN [Worker-15] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:05:37,355 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:05:37,355 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:05:37,355 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:06:29,625  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:06:29,625  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:06:40,572  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:06:40,572  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:07:21,155  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:07:21,155  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:08:06,310  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:08:06,310  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:08:09,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:08:09,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:08:09,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:08:10,518  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:08:10,518  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:08:49,092  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:08:49,092  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:10:00,422  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:10:00,423  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:10:21,906  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:10:21,906  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:10:28,218  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:10:28,218  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:11:10,505  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:11:10,505  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:11:19,791  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:11:19,792  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:11:28,924  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:11:28,924  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:11:30,739  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:11:30,740  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:11:35,916  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:11:35,916  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:12:05,600  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:12:05,600  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:12:10,888  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:12:10,889  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:12:13,983  WARN [Worker-19] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 22:12:13,983  WARN [Worker-19] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 22:12:13,984  WARN [Worker-19] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 22:12:13,984  WARN [Worker-19] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 22:12:14,070  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:12:14,070  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:12:14,073  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:12:14,073  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:12:14,688  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:12:14,688  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:12:57,656  WARN [Worker-23] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:12:57,657  WARN [Worker-23] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:13:15,263  WARN [Worker-22] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 22:13:15,263  WARN [Worker-22] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 22:13:15,266  WARN [Worker-22] - ScalaProject - Project LearningScala has platform default sourceLevel.
+2017-05-06 22:13:15,266  WARN [Worker-22] - ScalaProject - Project LearningScala runs on platform default installation.
+2017-05-06 22:13:15,401  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:13:15,401  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:13:15,408  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:13:15,408  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:13:15,864  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:13:15,865  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:13:37,393  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:13:37,393  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:13:41,982  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:13:41,982  WARN [Worker-21] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:14:00,012  WARN [main] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:14:00,012  WARN [main] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:14:00,272  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:14:00,272  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:14:04,771 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:14:04,772 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:14:04,772 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-06 22:14:09,768  WARN [Worker-25] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:14:09,768  WARN [Worker-25] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:14:57,533  WARN [Worker-23] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:14:57,533  WARN [Worker-23] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:16:31,435  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:16:31,436  WARN [Worker-19] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:17:20,195  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:17:20,195  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:17:29,737  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:17:29,737  WARN [Worker-14] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.
+2017-05-06 22:17:33,373  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse has platform default sourceLevel.
+2017-05-06 22:17:33,373  WARN [Worker-22] - ScalaProject - Project ScalaSparkCourse runs on platform default installation.

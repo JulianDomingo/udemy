@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+/home/julian/Documents/School/udemy/scala_apache_spark/SparkScala/.metadata/.plugins/org.eclipse.jdt.core
+1044996231.index
+3353234052.index

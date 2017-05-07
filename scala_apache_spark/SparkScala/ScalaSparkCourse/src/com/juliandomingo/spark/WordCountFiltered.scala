@@ -18,13 +18,9 @@ object WordCountFiltered {
                      .map(x => (x, 1) )
                      .reduceByKey( (x, y) => (x + y) )
                      .map(x => (x._2, x._1) )
-                     .sortByKey()
                      .filter(x => !blackList.contains(x._2) )
-    
-    for (tuple <- filtered) {
-      val word = tuple._1
-      val count = tuple._2
-      println(s"$word : $count")
-    }  
+                     .collect()
+                     
+    filtered.sorted.foreach(println)
   }
 }

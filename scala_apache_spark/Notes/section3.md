@@ -116,6 +116,18 @@
     * rdd.filter(x => (x._1, x._3.toFloat)) => (<weather station>, <temperature>)
     * Reduces number of shuffle operations needed for cluster to complete job.
 
+#### Map vs. Flatmap
+* map(): One-to-one mapping of RDD to transform and transformed RDD
+  * By line
+* flatMap(): One-to-many mapping
+  * Create many new elements from each element
+  * **Every element in return value of flatMap() is a new row in the resultant
+    RDD.**
+* countByValue() returns Scala map. For a return value of RDD:
+  * rdd.map(x => (x, 1)).reduceByKey( (x,y) => x + y) 
+* Flipping key / value pairs: rdd.map( (x => (x.\_2, x.\_1)) )
+* Sorting: sortByKey() 
+
  
 
  

@@ -102,10 +102,20 @@
     * results.sorted.foreach(println)
   * Result: (age, (combined friend count, people of age "age"))
 
+#### Filtering RDD's
+* Saving Spark from doing unnecessary processing.
+* Simply pass a function which returns a boolean:
+  * True == keep 
+  * False == filter out
+  * rdd.filter(x => equality of kept value(s))
+* Before invoking RDD action function, always best to remove any feature
+  columns which are no longer need.
+  * Calculate Min Temp: 
+  * Before (need identifier in initial filter()): (<weather station>, <min temp identifier>, <temperature>)
+  * After (no longer need identifier): 
+    * rdd.filter(x => (x._1, x._3.toFloat)) => (<weather station>, <temperature>)
+    * Reduces number of shuffle operations needed for cluster to complete job.
 
  
+
  
-
-
-
-

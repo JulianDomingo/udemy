@@ -1,0 +1,68 @@
+2017-05-07 23:49:16,840  WARN [ModalContext] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:49:16,841  WARN [ModalContext] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:49:16,887 ERROR [Worker-2] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-05-07 23:49:16,887 ERROR [Worker-2] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-05-07 23:49:17,239  WARN [Worker-2] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:49:17,240  WARN [Worker-2] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:49:29,117  WARN [Worker-3] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:49:29,117  WARN [Worker-3] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:51:03,915  WARN [Worker-0] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:51:03,915  WARN [Worker-0] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:51:04,302  WARN [Java indexing] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:51:04,302  WARN [Java indexing] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:53:47,269  WARN [Worker-4] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:53:47,269  WARN [Worker-4] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:53:47,449  WARN [Worker-7] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:53:47,449  WARN [Worker-7] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:53:48,390  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:53:48,390  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:55:47,826  WARN [Worker-4] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:55:47,826  WARN [Worker-4] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:55:47,829  WARN [Worker-4] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:55:47,829  WARN [Worker-4] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:55:48,121  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:55:48,121  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:57:17,598  WARN [Worker-9] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:57:17,599  WARN [Worker-9] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:57:17,604  WARN [Worker-9] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:57:17,604  WARN [Worker-9] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:57:17,947  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-07 23:57:17,947  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-07 23:58:55,699 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-07 23:58:55,699 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-07 23:58:55,699 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-08 00:00:07,021  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:07,021  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:00:07,026  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:07,026  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:00:09,704 ERROR [Worker-2] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-05-08 00:00:09,704 ERROR [Worker-2] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-05-08 00:00:10,265  WARN [Worker-0] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:10,265  WARN [Worker-0] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:00:10,287  WARN [Worker-0] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:10,287  WARN [Worker-0] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:00:30,499  WARN [Worker-5] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:30,499  WARN [Worker-5] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:00:30,657  WARN [Worker-3] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:30,657  WARN [Worker-3] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:00:31,599  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:00:31,599  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:01:02,211  WARN [Worker-5] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:01:02,211  WARN [Worker-5] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 00:02:03,365 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-08 00:02:03,366 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-08 00:02:03,366 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-08 00:03:19,901  WARN [Worker-3] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 00:03:19,901  WARN [Worker-3] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 10:22:56,309  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 10:22:56,309  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 10:22:56,313  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 10:22:56,313  WARN [main] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 10:22:59,362 ERROR [Worker-5] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-05-08 10:22:59,363 ERROR [Worker-5] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-05-08 10:23:23,424  WARN [Worker-1] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 10:23:23,425  WARN [Worker-1] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 10:23:23,447  WARN [Worker-1] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 10:23:23,447  WARN [Worker-1] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.
+2017-05-08 10:23:23,572  WARN [Java indexing] - ScalaProject - Project ScalaApacheSparkCourse has platform default sourceLevel.
+2017-05-08 10:23:23,572  WARN [Java indexing] - ScalaProject - Project ScalaApacheSparkCourse runs on platform default installation.

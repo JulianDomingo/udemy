@@ -26,7 +26,34 @@
 * Option objects:
   * Contains a "Some" value (exists), or a "None" value (doesn't exist
     / doesn't fit protocol)
+  * Error Handling
+    * Use flatMap(function), and function should return a list of
+      Option[transformed rows].
 
+#### Degrees of Separation (BFS)
+* Accumulator: allows many executors to increment a shared variable
+  * LongAccumulator("name of accumulator"): initialized to 0.
+  * var hitCounter: Optino[Accumulator[Int]] = None
+    * hitCounter = Some(sc.accumulator(0))
+    * hitCounter.isDefined
+    * hitCounter.get.add(1)
 
-
+#### Item-based Collaborative Filtering
+* Defining relations among items in a data set
+* **Caching RDD's:** 
+  * Prevents recreating an RDD from scratch if > 1 RDD action is needed for
+    a particular RDD.
+  * rdd.cache() -> to memory
+  * rdd.persist() -> to disk and/or memory
+  * rdd.rddaction().cache()
+* **Self-join**:
+  * rdd.join(rdd)
+    * Generates an RDD containing a permutation of all values.
+    * Will most likely need to filter duplicates (same value, different
+      positions)
+* Defining own types:
+  * type <var name>: <type name>
+* Similarities: compute cosine
+* Reverse sorting: sortByKey(false)
+* Taking portion of RDD: take(sample amount)
 

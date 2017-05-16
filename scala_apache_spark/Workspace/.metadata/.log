@@ -5551,3 +5551,193 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.scala-ide.s
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2017-05-07 23:59:14.416
 !MESSAGE Removing part descriptor with the 'scala.tools.eclipse.scalatest.ui.ScalaTestResultView' id and the 'ScalaTest' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+!SESSION 2017-05-08 20:54:08.868 -----------------------------------------------
+eclipse.buildId=4.5.0-vfinal-2016-12-13T10:59:29Z-Typesafe
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 4 2 2017-05-08 21:56:05.588
+!MESSAGE Problems occurred when invoking code from plug-in: "org.scala-ide.sdt.core".
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 1504
+	at java.lang.String.<init>(String.java:205)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$.org$scalaide$ui$internal$editor$decorators$implicits$ImplicitHighlightingPresenter$$mkImplicitConversionAnnotation$1(ImplicitHighlightingPresenter.scala:55)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:91)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1294)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1280)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1283)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2484)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1234)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.internal.Trees$$anonfun$traverseMemberDef$1$1.apply$mcV$sp(Trees.scala:1215)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.internal.Trees$class.traverseMemberDef$1(Trees.scala:1203)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1328)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.api.Trees$Traverser$$anonfun$traverseStats$1$$anonfun$apply$1.apply$mcV$sp(Trees.scala:2498)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2497)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1232)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.internal.Trees$$anonfun$traverseMemberDef$1$1.apply$mcV$sp(Trees.scala:1208)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.internal.Trees$class.traverseMemberDef$1(Trees.scala:1203)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1327)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:87)
+	at scala.reflect.api.Trees$Traverser$$anonfun$traverseStats$1$$anonfun$apply$1.apply$mcV$sp(Trees.scala:2498)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2497)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1326)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$$anon$1.traverse(ImplicitHighlightingPresenter.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter$.findAllImplicitConversions(ImplicitHighlightingPresenter.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter.findAll(ImplicitHighlightingPresenter.scala:29)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.findAnnotations$1(BaseSemanticAction.scala:146)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.apply(BaseSemanticAction.scala:157)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:101)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:100)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:105)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:105)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:105)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:104)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:103)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$handleReconciliation$2.apply(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$handleReconciliation$2.apply(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-05-08 21:56:05.684
+!MESSAGE Error occurred while executing 'org.scalaide.ui.internal.editor.decorators.implicits.ImplicitHighlightingPresenter'. Check the previous stack trace for more information.
+!SESSION 2017-05-08 23:55:29.633 -----------------------------------------------
+eclipse.buildId=4.5.0-vfinal-2016-12-13T10:59:29Z-Typesafe
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 2 2017-05-08 23:56:12.991
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:316)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:972)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-08 23:56:12.992
+!MESSAGE Resource is out of sync with the file system: '/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-08 23:56:12.992
+!MESSAGE Resource is out of sync with the file system: '/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala'.
+
+!ENTRY org.eclipse.core.resources 4 75 2017-05-08 23:56:13.002
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.scala-ide.sdt.core 4 75 2017-05-08 23:56:13.002
+!MESSAGE Errors running builder 'Scala Builder' on project 'ScalaApacheSparkCourse'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:316)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:972)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2017-05-08 23:56:13.002
+!MESSAGE Resource is out of sync with the file system: '/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-08 23:56:13.002
+!MESSAGE Resource is out of sync with the file system: '/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala'.

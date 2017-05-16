@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_n0ynYDOpEeeeJu60KxnHJg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_n0ynYTOpEeeeJu60KxnHJg" bindingContexts="_n0ynZzOpEeeeJu60KxnHJg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;MovieSimilarities1M.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;>&#xA;&lt;persistable path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;PopularMovies.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/PopularMovies.scala&quot;>&#xA;&lt;persistable path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/PopularMovies.scala&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;MovieSimilarities.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities.scala&quot;>&#xA;&lt;persistable path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities.scala&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;SparkSQL.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/SparkSQL.scala&quot;>&#xA;&lt;persistable path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/SparkSQL.scala&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;MovieSimilarities1M.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;>&#xA;&lt;persistable path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;PopularMovies.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/PopularMovies.scala&quot;>&#xA;&lt;persistable path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/PopularMovies.scala&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_n0ynYTOpEeeeJu60KxnHJg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_oNIO4jOpEeeeJu60KxnHJg" x="1" y="33" width="2560" height="1440">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_n0ynYTOpEeeeJu60KxnHJg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_oNIO4jOpEeeeJu60KxnHJg" x="16" y="56" width="2534" height="1397">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -98,6 +98,8 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_FDnclDOrEeeg6ff4WXsgXg" containerData="2600" selectedElement="_FDnclTOrEeeg6ff4WXsgXg">
               <children xsi:type="basic:PartStack" xmi:id="_FDnclTOrEeeg6ff4WXsgXg" elementId="topLeft" containerData="5000" selectedElement="_FDncljOrEeeg6ff4WXsgXg">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_FDncljOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_FDlnYDOrEeeg6ff4WXsgXg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_FDnclzOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_FDmOcDOrEeeg6ff4WXsgXg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_FDncmDOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_FDmOcTOrEeeg6ff4WXsgXg"/>
@@ -109,12 +111,14 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_FDncnDOrEeeg6ff4WXsgXg" elementId="org.eclipse.ant.ui.views.AntView" toBeRendered="false" ref="_FDm1gDOrEeeg6ff4WXsgXg"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_FDncnTOrEeeg6ff4WXsgXg" containerData="7400" selectedElement="_FDncnjOrEeeg6ff4WXsgXg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_FDncnTOrEeeg6ff4WXsgXg" containerData="7400" selectedElement="_FDncnzOrEeeg6ff4WXsgXg">
               <children xsi:type="advanced:Placeholder" xmi:id="_FDncnjOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.editorss" containerData="6600" ref="_oXbaYDOpEeeeJu60KxnHJg"/>
-              <children xsi:type="basic:PartStack" xmi:id="_FDncnzOrEeeg6ff4WXsgXg" elementId="bottomRight" containerData="3400" selectedElement="_FDncoDOrEeeg6ff4WXsgXg">
+              <children xsi:type="basic:PartStack" xmi:id="_FDncnzOrEeeg6ff4WXsgXg" elementId="bottomRight" containerData="3400" selectedElement="_DnQjUDRbEeefXpyw9Qp4dg">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
+                <tags>General</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_FDncoDOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.views.TaskList" ref="_oXjWMDOpEeeeJu60KxnHJg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_FDncoTOrEeeg6ff4WXsgXg" elementId="org.eclipse.team.ui.GenericHistoryView" toBeRendered="false" ref="_FDnckDOrEeeg6ff4WXsgXg"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_DnQjUDRbEeefXpyw9Qp4dg" elementId="org.eclipse.ui.console.ConsoleView" ref="_oXjWMTOpEeeeJu60KxnHJg"/>
               </children>
             </children>
           </children>
@@ -145,18 +149,26 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_oXbaYDOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.editorss" selectedElement="_oXbaYTOpEeeeJu60KxnHJg">
-      <children xsi:type="basic:PartStack" xmi:id="_oXbaYTOpEeeeJu60KxnHJg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_RxQhUDQCEeeWi_qfGrg1ww">
+      <children xsi:type="basic:PartStack" xmi:id="_oXbaYTOpEeeeJu60KxnHJg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_0ZIC4DRzEeecla6VfN7Wkg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_RxQhUDQCEeeWi_qfGrg1ww" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MovieSimilarities1M.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;MovieSimilarities1M.scala&quot; partName=&quot;MovieSimilarities1M.scala&quot; title=&quot;MovieSimilarities1M.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2993&quot; selectionTopPixel=&quot;1048&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;MovieSimilarities1M.scala&quot; partName=&quot;MovieSimilarities1M.scala&quot; title=&quot;MovieSimilarities1M.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities1M.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;218&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_ggTnsDRaEeefXpyw9Qp4dg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SparkSQL.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;SparkSQL.scala&quot; partName=&quot;SparkSQL.scala&quot; title=&quot;SparkSQL.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/SparkSQL.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/SparkSQL.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1122&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_0ZIC4DRzEeecla6VfN7Wkg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MovieSimilarities.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;MovieSimilarities.scala&quot; partName=&quot;MovieSimilarities.scala&quot; title=&quot;MovieSimilarities.scala&quot; tooltip=&quot;ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ScalaApacheSparkCourse/src/com/juliandomingo/spark/MovieSimilarities.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;491&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -194,13 +206,19 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_FIsw4TOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.views.TaskList"/>
+      <toolbar xmi:id="_FIsw4TOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.views.TaskList" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oXjWMTOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.console"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_DnWC4DRbEeefXpyw9Qp4dg" elementId="org.eclipse.ui.console.ConsoleView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_DnWC4TRbEeefXpyw9Qp4dg" elementId="org.eclipse.ui.console.ConsoleView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_oXj9QDOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.contentoutline.ContentOutline"/>
@@ -220,6 +238,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1494218931453&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_FEGkwDOrEeeg6ff4WXsgXg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -263,7 +283,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oNyWMDOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_NQrSEDQCEeeWi_qfGrg1ww" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_n1GwiDOpEeeeJu60KxnHJg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vPlWMDRzEeecla6VfN7Wkg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_n1GwiDOpEeeeJu60KxnHJg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oNyWMTOpEeeeJu60KxnHJg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -281,7 +301,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oNy9QjOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_NQtHQDQCEeeWi_qfGrg1ww" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_n1GJqjOpEeeeJu60KxnHJg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vPnLYDRzEeecla6VfN7Wkg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_n1GJqjOpEeeeJu60KxnHJg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oNy9QzOpEeeeJu60KxnHJg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2367,7 +2387,7 @@
   </addons>
   <addons xmi:id="_n0yndDOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_n01qsDOpEeeeJu60KxnHJg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_M5lnwTQCEeeWi_qfGrg1ww" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_u4UFsTRzEeecla6VfN7Wkg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_n1B38DOpEeeeJu60KxnHJg" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_n1B38TOpEeeeJu60KxnHJg" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

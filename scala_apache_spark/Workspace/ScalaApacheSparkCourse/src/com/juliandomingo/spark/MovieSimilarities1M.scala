@@ -1,13 +1,13 @@
 package com.sundogsoftware.spark
 
-import org.apache.spark._
-import org.apache.spark.SparkContext._
-import org.apache.log4j._
-import scala.io.Source
 import java.nio.charset.CodingErrorAction
+import org.apache.log4j._
+import org.apache.spark.SparkContext._
+import org.apache.spark._
+import org.apache.spark.sql._
 import scala.io.Codec
+import scala.io.Source
 import scala.math.sqrt
-
 
 // To run on EMR successfully + output results for Star Wars:
 // aws s3 cp s3://sundog-spark/MovieSimilarities1M.jar ./
